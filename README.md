@@ -1,1 +1,1 @@
-# ansiblerole-windows
+# ansiblerole-awsinspectoragent-windows
