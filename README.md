@@ -28,6 +28,6 @@ A list of other roles hosted on Galaxy should go here, plus any details in regar
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 # This tasks installs AWS Inspector agent
 - name: install inspector agent
-  hosts: win
+- hosts: win
   roles: 
-      - riponbanik.ansible_role_aws_inspector_agent 
+      - { riponbanik.ansible_role_aws_inspector_agent } 
