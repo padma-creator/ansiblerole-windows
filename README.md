@@ -29,5 +29,5 @@ Including an example of how to use your role (for instance, with variables passe
 # This tasks installs AWS Inspector agent
 - name: install inspector agent
 - hosts: win
-  roles: 
+- roles: 
       - { riponbanik.ansible_role_aws_inspector_agent } 
