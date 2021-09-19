@@ -1,0 +1,8 @@
+---
+# This tasks installs AWS Inspector agent
+
+- name: install inspector agent
+  hosts: win
+  roles: 
+      - riponbanik.ansible_role_aws_inspector_agent 
+
